@@ -1,0 +1,34 @@
+.dashboard-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #64b5f6, #1976d2);
+}
+
+.dashboard-container h2 {
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.dashboard-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dashboard-container th,
+.dashboard-container td {
+  padding: 15px;
+  border: 1px solid #fff;
+  text-align: left;
+  color: #fff;
+}
+
+.dashboard-container th {
+  background-color: #1976d2;
+}
+
+.dashboard-container tbody tr:nth-child(even) {
+  background-color: #64b5f6;
+}
